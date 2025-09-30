@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="header" style="color: #010101;">
+            <h1>Weather App</h1>
+            <p>Get the latest weather updates</p>
+        </div>
+        <div class="main" style="display:inline-flex;justify-content:space-around;">
+            <div class="div1" style="background-color:  rgb(67, 129, 211);width: 400px;height: 500px;;opacity:0.8;margin-top:10%;margin-right: 2%;">
+                <div style="height: 91%;">
+                    <h1 id="city">Chennai</h1>
+                    <h2>Time</h2>
+                    <h1 id="time">12:00 PM</h1>
+                    <h2>Date</h2>
+                    <h1 id="date">2023-10-01</h1>
+                    <h2>Day</h2>
+                    <h1 id="day">Sunday</h1>
+                </div>
+            </div>
+            <div class="div2" style="background-color: aqua;width: 500px;opacity:0.7;">
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Enter city name" />
+                <button id="search-button">Search</button>
+                <br>
+                <button id="current-location-button" style="margin-top: 10px;">Use Current Location</button>
+            </div>
+            <div class="error-message" id="error-message"></div>
+            <div class="weather-info">
+                <h1>Weather Information</h1>
+                <p id="location">Location: </p>
+                <p id="temperature">Temperature: </p>
+                <p id="description">Description: </p>
+                <p id="humidity">Humidity: </p>
+                <p id="wind-speed">Wind Speed: </p>
+                <p id="pressure">Pressure: </p>
+                <p id="sunrise">Sunrise: </p>
+                <p id="sunset">Sunset: </p>
+                <p id="visibility">Visibility: </p>
+                <p id="clouds">Clouds: </p>
+            </div>
+            </div>
+            <div class="div3" style="background-color:  rgb(112, 162, 228);width: 300px;height: 500px;opacity:0.8;margin: 3%;margin-top: 10%;padding-right: 4%;">
+                <div style="width: 100%;padding-right: 5%;">
+                <h1>Weather Forecast</h1>
+
+                <div id="forecast" style="border-radius: 50%;">
+                    <img src="images/sun.jpg" alt="sun" style="object-fit: cover; width: 250px; height: 250px;opacity: 1; border-radius: 50%;">
+                </div>
+                <h1>hot</h1>
+            </div>
+            </div>
+        </div>
+    <div class="footer">
+        <p>&copy; 2025 Weather App</p>
+        <p>Developed by Dharani</p>
+    </div>
+
+    <script src="script.js"></script>
+</center>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'dancing script', cursive;
+    background:url('images/web1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.div3 h1:last-child {
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.main div{
+    margin-left: 5%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="text"]{
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    width: 90%;
+    background: linear-gradient(21deg, #011e18, #f7f7f7, #011e18);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+    font-size: larger;
+    text-align: center;
+}
+button:hover{
+    background-color: #ff4500;
+}
