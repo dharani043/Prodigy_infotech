@@ -68,11 +68,10 @@ Each project folder contains its own screenshots and detailed documentation.
 ```
 Prodigy_infotech/
 ├── TASK1/                 # Real Estate Landing Page
+│   ├── images/
 │   ├── screenshots/
 │   ├── index.html
-│   ├── gallery.html
-│   ├── buy_sell.html
-│   ├── login.html
+│   ├── login_signup.html
 │   ├── style.css
 │   ├── script.js
 │   └── README.md
